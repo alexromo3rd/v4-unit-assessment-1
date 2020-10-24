@@ -21,18 +21,108 @@ header h1 {
 
 /* Section */
 .section-style {
+  position: relative;
   margin-left: 10px;
   margin-right: 10px;
   border: 1px dashed black;
 }
 
-section h2 {
+h2 {
   margin-top: 10px;
   margin-left: 10px;
 }
 
 /* Rectangle Section */
+#rectangles {
+  height: 25vh;
+}
+
+#purple-rectangle {
+  height: 150px;
+  width: 300px;
+  background-color: purple;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 4px solid red;
+}
+
+#blue-square {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  margin-left: 360px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 4px 4px #000000;
+}
+
+#magenta-square {
+  height: 280px;
+  width: 280px;
+  background-color: salmon;
+  position: absolute;
+  bottom: 0;
+  margin-left: 550px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
 
 /* Circle Section */
+#circles {
+  height: 35vh;
+}
+
+.coal {
+  height: 22px;
+}
+
+.coal-head {
+  margin-top: 30px;
+  padding-left: 10px;
+}
+
+#carrot {
+  height: 22px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.radius {
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#top {
+  height: 110px;
+  width: 110px;
+  margin-top: 10px;
+  margin-left: 40px;
+  padding-left: 10px;
+}
+
+#middle {
+  height: 135px;
+  width: 135px;
+  margin-left: 30px;
+}
+
+.coal-body {
+  display: block;
+  margin-left: 55px;
+  margin-top: 15px;
+}
+
+#bottom {
+  height: 185px;
+  width: 185px;
+  margin-left: 10px;
+}
 
 /* Everything Section */
+#everything {
+  height: 25vh;
+}
