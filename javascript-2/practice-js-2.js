@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = 'Version control software used to keep snapshots of your code at different dates/times'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = 'Github is an online platform used to store your code repositories'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,6 +36,10 @@
 */
 
 //CODE HERE
+let init = {
+    description: 'initializes your repository which tells git to start tracking changes to the files in that directory',
+    code: 'git init'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +48,10 @@
 */
 
 //CODE HERE
+let clone = {
+    description: 'creates a copy of a github repository locally on your machine',
+    code: 'git clone {url}'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +60,10 @@
 */
 
 //CODE HERE
+let status = {
+    description: 'checks the current status of your current initialized directory which will tell you if any files were changed',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +72,10 @@
 */
 
 //CODE HERE
+let add = {
+    description: 'adds your current changes to git which can be specified by filename or can be all inclusive by using .',
+    code: 'git add {filename} or git add .'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +84,10 @@
 */
 
 //CODE HERE
+let commit = {
+    description: 'commits your changes in git along with a message which basically saves a new snapshot of the current state of your directory',
+    code: 'git commit -m'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +96,10 @@
 */
 
 //CODE HERE
+let addRemote = {
+    description: 'creates a link between your initialized directory and your github repository',
+    code: 'git remote add origin {url}'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +108,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: 'pushes your code from your initialized directory to your github repository',
+    code: 'git push'
+}
