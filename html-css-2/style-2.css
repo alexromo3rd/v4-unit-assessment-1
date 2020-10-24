@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+/* Header */
+header {
+  height: 5%;
+  background-color: turquoise;
+}
+
+header h1 {
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+/* Section */
+.section-style {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px dashed black;
+}
+
+section h2 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* Rectangle Section */
+
+/* Circle Section */
+
+/* Everything Section */
