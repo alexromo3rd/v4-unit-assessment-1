@@ -12,13 +12,13 @@ let duck = {
 //1. Using dot notation to access the duck's "name" property.
 // let accessByDotNotation = duck."name"
 // let accessByDotNotation = Object[duck].name
-// let accessByDotNotation = duck.name
+let accessByDotNotation = duck.name
 
 //2. Using bracket notation to access duck's "bites" property.
 // let accessByBracketNotation = duck{"bites"}
 // let accessByBracketNotation = Object[duck][bites]
 // let accessByBracketNotation = duck[bites]
-// let accessByBracketNotation = duck['bites']
+let accessByBracketNotation = duck['bites']
 // let accessByBracketNotation = duck(bites)
 
 ///////////////////Problem 2///////////////////
@@ -34,6 +34,9 @@ let person = {
 }
 
 //CODE HERE
+person.moveCities = function (newCity) {
+  person.city = newCity;
+}
 
 ///////////////////Problem 3///////////////////
 
@@ -48,6 +51,7 @@ let doors = {
 }
 
 //Code here
+let doorKeys = Object.keys(doors);
 
 //////////////////PROBLEM 4////////////////////
 

@@ -23,6 +23,9 @@ try {
 //the string "Hey " plus the name.
 
 //Code here
+function hey(name) {
+  return `Hey ${name}`
+}
 
 ///////////////////Problem 2//////////////////
 //Create a function called hi, using a function
@@ -30,6 +33,9 @@ try {
 //the string "Hi " plus the name.
 
 //Code here
+let hi = function (name) {
+  return 'Hi ' + name;
+}
 
 ///////////////////Problem 3//////////////////
 //Create a function called hello, using an arrow
@@ -37,6 +43,7 @@ try {
 //the string "Hello " plus the name.
 
 //Code here
+let hello = name => `Hello ${name}`
 
 ///////////////////Problem 4//////////////////
 //Create a function named fun, which takes in
@@ -46,6 +53,11 @@ try {
 //variable called funTimes.
 
 //Code here
+function fun(str) {
+  return `${str}!!!!!`
+}
+
+funTimes = fun('Yay');
 
 //////////////////PROBLEM 5////////////////////
 
@@ -56,6 +68,9 @@ try {
 //should return the SECOND callback param invoked.
 
 //Code here
+function invokesCallbacks(num, cb1, cb2) {
+  return num > 10 ? cb1() : cb2();
+}
 
 //////////////////PROBLEM 6////////////////////
 
@@ -72,7 +87,10 @@ let greeting
 
 function addNumbers(value) {
   var myNumbers = []
-  //Code here
+  for (let i = 0; i < value; i++) {
+    myNumbers.push(i);
+  }
+  return myNumbers;
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -84,7 +102,11 @@ function addNumbers(value) {
 
 function backwardsGreeting(arr) {
   let greetings = []
-  //Code here
+  for (let i = arr.length - 1; i >= 0; i--) {
+    arr[i] = 'Hello, ' + arr[i];
+    greetings.push(arr[i]);
+  }
+  return greetings;
 }
 
 //////////////////PROBLEM 9////////////////////
@@ -95,5 +117,8 @@ function backwardsGreeting(arr) {
 //the variable i for your for loop
 
 function leapFrog(arr) {
-  //Code here
+  for (let i = 0; i < arr.length; i += 2) {
+    arr[i] += ' frog';
+  }
+  return arr;
 }
